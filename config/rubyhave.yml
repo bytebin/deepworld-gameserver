@@ -1,0 +1,58 @@
+# Do this bro:
+# ObjectSpace.each_object(Class).select { |klass| klass < Rubyhave::Behavior }
+
+behaviors:
+  selector:           Rubyhave::Selector
+  sequence:           Rubyhave::Sequence
+
+  equality:           Behavior::Equality
+  inequality:         Behavior::Inequality
+
+  crawler:            Behavior::Crawler
+  flyer:              Behavior::Flyer
+  flocker:            Behavior::Flocker
+  walker:             Behavior::Walker
+  digger:             Behavior::Digger
+  eruption_attack:    Behavior::EruptionAttack
+  spawn_attack:       Behavior::SpawnAttack
+  shielder:           Behavior::Shielder
+  reporter:           Behavior::Reporter
+  idle:               Behavior::Idle
+  bob:                Behavior::Bob
+  climb:              Behavior::Climb
+  fall:               Behavior::Fall
+  fly:                Behavior::Fly
+  fly_toward:         Behavior::FlyToward
+  fly_seek:           Behavior::FlySeek
+  follow:             Behavior::Follow
+  aquatic:            Behavior::Aquatic
+  jump:               Behavior::Jump
+  land:               Behavior::Land
+  stuck:              Behavior::Stuck
+  turn:               Behavior::Turn
+  walk:               Behavior::Walk
+  dig:                Behavior::Dig
+  flock:              Behavior::Flock
+  randomly_target:    Behavior::RandomlyTarget
+  retaliatory_target: Behavior::RetaliatoryTarget
+  directed_target:    Behavior::DirectedTarget
+  owner_target:       Behavior::OwnerTarget
+  unblock:            Behavior::Unblock
+  animate:            Behavior::Animate
+
+  quester:            Behavior::Quester
+  dialoguer:          Behavior::Dialoguer
+  chatter:            Behavior::Chatter
+  pet:                Behavior::Pet
+
+  butler:             Behavior::Butler
+  butler_blocker:     Behavior::ButlerBlocker
+  directed_fly:       Behavior::DirectedFly
+  servant_mine:       Behavior::ServantMine
+  servant_place:      Behavior::ServantPlace
+  servant_fill:       Behavior::ServantFill
+  servant_blast:      Behavior::ServantBlast
+  servant_drain:      Behavior::ServantDrain
+  servant_dump:       Behavior::ServantDump
+  servant_excavate:   Behavior::ServantExcavate
+  servant_teleport:   Behavior::ServantTeleport

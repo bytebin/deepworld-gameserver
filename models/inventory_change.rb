@@ -1,0 +1,2 @@
+class InventoryChange < MongoModel
+end

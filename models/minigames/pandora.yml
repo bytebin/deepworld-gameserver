@@ -1,0 +1,109 @@
+very easy:
+  - spawn:
+      creatures/crow-auto: 10
+  - spawn:
+      creatures/roach-large: 10
+  - spawn:
+      automata/tiny: 4
+      automata/small: 2
+  - spawn:
+      revenant: 3
+  - spawn:
+      terrapus/adult: 5
+      terrapus/fire: 1
+  - spawn:
+      terrapus/fire: 4
+  - spawn:
+      terrapus/frost: 4
+
+easy:
+  - spawn:
+      automata/tiny: 8
+      automata/small: 4
+  - spawn:
+      brains/tiny-crawler: 3
+      brains/tiny-flyer: 3
+  - spawn:
+      revenant: 4
+      dire-revenant: 1
+  - spawn:
+      terrapus/adult: 8
+      terrapus/fire: 3
+  - spawn:
+      terrapus/fire: 4
+      terrapus/frost: 4
+  - spawn:
+      terrapus/fire: 3
+      brains/small: 1
+  - spawn:
+      terrapus/skeleton: 4
+      terrapus/frost: 2
+
+medium:
+  - spawn:
+      automata/medium: 6
+      automata/large: 2
+  - spawn:
+      brains/tiny-crawler: 3
+      brains/tiny-flyer: 6
+  - spawn:
+      revenant: 5
+      dire-revenant: 3
+  - spawn:
+      brains/small: 4
+      terrapus/frost: 3
+  - spawn:
+      brains/medium: 1
+      brains/small: 2
+  - spawn:
+      terrapus/skeleton: 8
+      terrapus/acid: 4
+
+hard:
+  - spawn:
+      automata/medium: 3
+      automata/large: 3
+  - spawn:
+      revenant: 8
+      dire-revenant: 4
+  - spawn:
+      brains/medium-dire: 1
+      brains/small: 3
+      brains/tiny-crawler: 4
+  - spawn:
+      brains/medium: 3
+      brains/small: 4
+      brains/tiny-crawler: 3
+
+very hard:
+  - spawn:
+      automata/medium: 4
+      automata/large: 5
+  - spawn:
+      revenant: 10
+      dire-revenant: 5
+  - spawn:
+      brains/medium-dire: 2
+      brains/small: 7
+  - spawn:
+      brains/medium: 3
+      brains/small: 6
+  - spawn:
+      terrapus/skeleton: 12
+      terrapus/acid: 8
+
+epic:
+  - spawn:
+      automata/large: 6
+  - spawn:
+      brains/medium-dire: 4
+      brains/small: 2
+  - spawn:
+      brains/medium-dire: 2
+      brains/medium: 5
+  - spawn:
+      brains/large: 1
+      brains/medium: 2
+  - spawn:
+      brains/large: 1
+      brains/small: 3

@@ -1,0 +1,9 @@
+Run gdb on running ruby process
+sudo gdb /usr/local/bin/ruby <pid>
+
+ruby source reference!
+http://rxr.whitequark.org/
+
+StringValueCStr(ruby_object) - returns a char * of the string
+rb_any_to_s( VALUE object ) – Calls #to_s on the object. Returns a Ruby string.
+rb_inspect( VALUE object ) – Calls #inspect on the object. Returns a Ruby string.

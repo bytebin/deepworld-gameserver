@@ -1,0 +1,1376 @@
+# ===== Wardrobe ===== #
+
+- wardrobe: tops/waistcoat-navy
+  frequency: 180
+- wardrobe: tops/coat-red
+  frequency: 120
+  premium: true
+- wardrobe: tops/coat-blue
+  frequency: 50
+- wardrobe: tops/coat-yellow
+  frequency: 20
+  premium: true
+- wardrobe: tops/corset-black
+  frequency: 50
+  premium: true
+- wardrobe: tops/tuxedo
+  frequency: 30
+- wardrobe: tops/polka
+  frequency: 30
+- wardrobe: tops/jacket-lady-green
+  frequency: 30
+  premium: true
+- wardrobe: tops/dress-pink
+  frequency: 25
+  premium: true
+- wardrobe: tops/camo
+  frequency: 20
+- wardrobe: tops/i-heart-dw
+  frequency: 15
+- wardrobe: tops/prepboy
+  frequency: 14
+- wardrobe: tops/prepgirl
+  frequency: 14
+- wardrobe: tops/indy
+  frequency: 12
+  premium: true
+- wardrobe: tops/jailbird
+  frequency: 20
+  premium: true
+- wardrobe: tops/clown
+  frequency: 20
+  premium: true
+- wardrobe: tops/aviation
+  frequency: 8
+- wardrobe: tops/charlie-brown
+  frequency: 6
+  premium: true
+- wardrobe: tops/tesla
+  frequency: 4
+  premium: true
+
+- wardrobe: headgear/helmet
+  frequency: 30
+- wardrobe: headgear/bonnet
+  frequency: 100
+  premium: true
+- wardrobe: headgear/baseball
+  frequency: 70
+- wardrobe: headgear/beanie
+  frequency: 60
+- wardrobe: headgear/bonnet-2
+  frequency: 40
+  premium: true
+- wardrobe: headgear/bucket
+  frequency: 30
+- wardrobe: headgear/party
+  frequency: 20
+- wardrobe: headgear/aviator
+  frequency: 25
+  premium: true
+- wardrobe: headgear/buckingham
+  frequency: 20
+- wardrobe: headgear/ribbon
+  frequency: 20
+- wardrobe: headgear/indy
+  frequency: 15
+  premium: true
+- wardrobe: headgear/constable-hat
+  frequency: 15
+  premium: true
+- wardrobe: headgear/tiara
+  frequency: 12
+  premium: true
+- wardrobe: headgear/cat
+  frequency: 15
+  premium: true
+- wardrobe: headgear/antlers
+  frequency: 13
+- wardrobe: headgear/dunce
+  frequency: 10
+- wardrobe: headgear/earmuffs-strawberry
+  frequency: 10
+- wardrobe: headgear/diving-helmet
+  frequency: 9
+  premium: true
+- wardrobe: headgear/jester
+  frequency: 8
+  premium: true
+- wardrobe: headgear/space-helmet
+  frequency: 6
+  premium: true
+- wardrobe: headgear/beekeeper
+  frequency: 6
+  premium: true
+- wardrobe: headgear/panda
+  frequency: 6
+  premium: true
+- wardrobe: headgear/headphones
+  frequency: 6
+  premium: true
+- wardrobe: headgear/mad-hatter
+  frequency: 6
+  premium: true
+- wardrobe: headgear/turtle-helmet
+  frequency: 5
+  premium: true
+- wardrobe: headgear/terrapus
+  frequency: 5
+  premium: true
+- wardrobe: headgear/toad
+  frequency: 5
+  premium: true
+- wardrobe: headgear/cthulhu
+  frequency: 3
+  premium: true
+- wardrobe: headgear/accident
+  frequency: 2
+  premium: true
+- wardrobe: headgear/helmet-onyx
+  frequency: 2
+  premium: true
+- wardrobe: headgear/unicorn
+  frequency: 2
+  premium: true
+- wardrobe: headgear/diablo
+  frequency: 1
+  premium: true
+
+- wardrobe: facialgear/goggles
+  frequency: 50
+# - wardrobe: facialgear/camo
+#   frequency: 35
+#   live: false
+- wardrobe: facialgear/football
+  frequency: 35
+- wardrobe: facialgear/earrings-hoop
+  frequency: 30
+- wardrobe: facialgear/rainbow
+  frequency: 30
+  premium: true
+  live: false
+- wardrobe: facialgear/makeup
+  frequency: 28
+  premium: true
+- wardrobe: facialgear/ice-queen-make-up
+  frequency: 8
+  premium: true
+- wardrobe: facialgear/tattoo-1
+  frequency: 25
+  premium: true
+- wardrobe: facialgear/swirly
+  frequency: 25
+  premium: true
+  live: false
+- wardrobe: facialgear/tattoo-3
+  frequency: 25
+- wardrobe: facialgear/tattoo-5
+  frequency: 25
+  premium: true
+- wardrobe: facialgear/butterfly
+  frequency: 22
+  premium: true
+- wardrobe: facialgear/goggles-lab
+  frequency: 20
+  premium: true
+- wardrobe: facialgear/clown
+  frequency: 20
+  premium: true
+# - wardrobe: facialgear/braveheart
+#   frequency: 15
+#   live: false
+- wardrobe: facialgear/witch-nose
+  frequency: 12
+  premium: true
+- wardrobe: facialgear/ski-glasses
+  frequency: 8
+  premium: true
+- wardrobe: facialgear/hazmat
+  frequency: 7
+  premium: true
+- wardrobe: facialgear/blindfold
+  frequency: 5
+  premium: true
+- wardrobe: facialgear/geordi
+  frequency: 3
+  premium: true
+- wardrobe: facialgear/masks/jack
+  frequency: 1
+  premium: true
+
+- wardrobe: facialgear/masks/amon
+  frequency: 10
+  premium: true
+- wardrobe: facialgear/masks/batman
+  frequency: 4
+  premium: true
+- wardrobe: facialgear/masks/cat
+  frequency: 20
+- wardrobe: facialgear/masks/comedy
+  frequency: 50
+- wardrobe: facialgear/masks/lady-luna
+  frequency: 40
+  premium: true
+- wardrobe: facialgear/masks/lone-ranger
+  frequency: 40
+  premium: true
+- wardrobe: facialgear/masks/majora
+  frequency: 3
+  premium: true
+- wardrobe: facialgear/masks/phantom
+  frequency: 30
+  premium: true
+- wardrobe: facialgear/masks/pulcinella
+  frequency: 15
+  premium: true
+- wardrobe: facialgear/masks/tragedy
+  frequency: 12
+  premium: true
+- wardrobe: facialgear/masks/turtle
+  frequency: 10
+  premium: true
+- wardrobe: facialgear/masks/venetian
+  frequency: 20
+- wardrobe: facialgear/hockey
+  frequency: 7
+  premium: true
+- wardrobe: facialgear/big-eyes
+  frequency: 2
+  premium: true
+
+- wardrobe: facialhair/goatee-large
+  frequency: 40
+  premium: true
+- wardrobe: facialhair/chin-strap
+  frequency: 35
+- wardrobe: facialhair/franz
+  frequency: 30
+- wardrobe: facialhair/anchor
+  frequency: 25
+- wardrobe: facialhair/soul-patch
+  frequency: 20
+- wardrobe: facialhair/beard-seneca
+  frequency: 10
+  premium: true
+- wardrobe: facialhair/wizard
+  frequency: 5
+- wardrobe: facialhair/gamekeeper
+  frequency: 5
+- wardrobe: facialhair/plumber
+  frequency: 2
+
+- wardrobe: hair/fro
+  frequency: 40
+- wardrobe: hair/mohawk
+  frequency: 30
+- wardrobe: hair/windswept
+  frequency: 25
+- wardrobe: hair/mad-scientist
+  frequency: 20
+- wardrobe: hair/balding
+  frequency: 20
+- wardrobe: hair/soft-dreadlocks
+  frequency: 15
+- wardrobe: hair/brat
+  frequency: 15
+- wardrobe: hair/spiky
+  frequency: 10
+  premium: true
+- wardrobe: hair/cornrows
+  frequency: 10
+  premium: true
+- wardrobe: hair/pop-star
+  frequency: 7
+- wardrobe: hair/pop-starlet
+  frequency: 7
+- wardrobe: hair/folk
+  frequency: 5
+- wardrobe: hair/rambo
+  frequency: 4
+- wardrobe: hair/dj
+  frequency: 3
+
+- wardrobe: hair/grease
+  frequency: 10
+- wardrobe: hair/wedge
+  frequency: 15
+- wardrobe: hair/godfather
+  frequency: 7
+- wardrobe: hair/dame
+  frequency: 25
+- wardrobe: hair/edward
+  frequency: 10
+- wardrobe: hair/flair
+  frequency: 12
+- wardrobe: facialhair/connected
+  frequency: 8
+- wardrobe: hair/poof
+  frequency: 7
+- wardrobe: hair/bruce
+  frequency: 4
+- wardrobe: hair/diva
+  frequency: 6
+- wardrobe: hair/slick
+  frequency: 17
+- wardrobe: hair/lady-slick
+  frequency: 17
+- wardrobe: facialhair/old-dutch
+  frequency: 3
+- wardrobe: hair/fringe-angled
+  frequency: 6
+- wardrobe: hair/helmet
+  frequency: 3
+- wardrobe: hair/shaved-sides
+  frequency: 3
+- wardrobe: hair/messy
+  frequency: 10
+- wardrobe: facialhair/pencil
+  frequency: 5
+- wardrobe: hair/lady-burns
+  frequency: 8
+- wardrobe: hair/superman
+  frequency: 2
+- wardrobe: hair/pageboy
+  frequency: 9
+- wardrobe: hair/boxer-hair
+  frequency: 3
+- wardrobe: hair/joker
+  frequency: 1
+- wardrobe: hair/dapper
+  frequency: 5
+- wardrobe: hair/back-bun
+  frequency: 30
+- wardrobe: facialhair/boxer-beard
+  frequency: 3
+- wardrobe: hair/pixie
+  frequency: 10
+- wardrobe: hair/secret-agent
+  frequency: 3
+- wardrobe: hair/scissorhands
+  frequency: 1
+- wardrobe: hair/rabbit
+  frequency: 1
+- wardrobe: hair/elvis
+  frequency: 2
+- wardrobe: hair/bride
+  frequency: 1
+
+- wardrobe: bottoms/pants-dandy
+  frequency: 40
+  premium: true
+- wardrobe: bottoms/dress-polka
+  frequency: 40
+- wardrobe: bottoms/dress-green
+  frequency: 25
+  premium: true
+- wardrobe: bottoms/dress-pink
+  frequency: 15
+  premium: true
+- wardrobe: bottoms/pants-camo
+  frequency: 15
+- wardrobe: bottoms/kilt
+  frequency: 15
+- wardrobe: bottoms/tutu
+  frequency: 10
+  premium: true
+- wardrobe: bottoms/clown
+  frequency: 5
+  premium: true
+# - wardrobe: bottoms/nineties
+#   frequency: 15
+#   premium: true
+
+- wardrobe: footwear/boot-heeled
+  frequency: 20
+- wardrobe: footwear/clown-foot
+  frequency: 5
+  premium: true
+
+- wardrobe: emotes/beg
+  frequency: 15
+- wardrobe: emotes/gasp
+  frequency: 10
+- wardrobe: emotes/dance-backflip
+  frequency: 7
+  premium: true
+- wardrobe: emotes/dance-monkey
+  frequency: 5
+  premium: true
+- wardrobe: emotes/faceplant
+  frequency: 3
+  premium: true
+- wardrobe: emotes/dance-peanuts-1
+  frequency: 2
+  premium: true
+- wardrobe: emotes/dance-runningman
+  frequency: 30
+- wardrobe: emotes/dance-singleladies
+  frequency: 2
+  premium: true
+- wardrobe: emotes/dance-snoopy
+  frequency: 1
+  premium: true
+- wardrobe: emotes/dance-ymca
+  frequency: 1
+  premium: true
+- wardrobe: emotes/dance-swim
+  frequency: 8
+  premium: true
+- wardrobe: emotes/tantrum
+  frequency: 5
+- wardrobe: emotes/tip-hat
+  frequency: 75
+- wardrobe: emotes/put-em-up
+  frequency: 10
+  premium: true
+- wardrobe: emotes/faint
+  frequency: 5
+  premium: true
+
+# ===== Supplies ===== #
+
+- items:
+    - ['building/wood', 15]
+    - ['building/wood-board', 5]
+  frequency: 200
+  type: resources
+- items:
+    - ['ground/copper-ore', 15]
+    - ['ground/zinc-ore', 5]
+  frequency: 160
+  type: resources
+- items:
+    - ['ground/zinc-ore', 10]
+  frequency: 150
+  type: resources
+- items:
+    - ['ground/clay', 15]
+  frequency: 160
+  type: resources
+- items:
+    - ['ground/iron-ore', 10]
+    - ['building/iron', 5]
+  frequency: 120
+  type: resources
+- items:
+    - ['back/paper', 20]
+  frequency: 80
+  type: resources
+- items:
+    - ['ground/quartz-ore', 10]
+    - ['ground/lead-ore', 5]
+  frequency: 60
+  type: resources
+- items:
+    - ['ground/lead-ore', 10]
+    - ['ground/iron-ore', 5]
+  frequency: 60
+  type: resources
+- items:
+    - ['back/glass', 15]
+  frequency: 60
+  type: resources
+- items:
+    - ['back/glass-divided', 15]
+  frequency: 50
+  type: resources
+- items:
+    - ['building/brass', 10]
+    - ['building/iron', 10]
+    - ['building/copper', 10]
+  frequency: 40
+  type: resources
+- items:
+    - ['mechanical/pipe', 20]
+  frequency: 20
+  type: resources
+- items:
+    - ['ground/marble-ore', 10]
+  frequency: 20
+  type: resources
+- items:
+    - ['ground/bloodstone-ore', 10]
+  frequency: 10
+  type: resources
+- items:
+    - ['ground/salt', 5]
+    - 'ground/fire-salt'
+  frequency: 15
+  type: resources
+
+
+
+
+# ===== Treasure ===== #
+
+# Flowers
+- items:
+    - ['vegetation/pumpkin-seeds', 2]
+  frequency: 15
+  type: treasure
+- items:
+    - ['vegetation/flower-coxcomb-bulb', 3]
+  frequency: 50
+  type: treasure
+- items:
+    - ['vegetation/flower-amaryllis-bulb', 2]
+  frequency: 30
+  type: treasure
+- items:
+    - ['vegetation/flower-asphodelus-bulb', 2]
+  frequency: 15
+  type: treasure
+- items:
+    - ['vegetation/flower-birds-foot-trefoil-bulb', 1]
+  frequency: 9
+  type: treasure
+- items:
+    - ['vegetation/flower-carnations-bulb', 4]
+  frequency: 40
+  type: treasure
+- items:
+    - ['vegetation/flower-tuberose-bulb', 3]
+  frequency: 15
+  type: treasure
+
+- items: vegetation/flower-echinacea-bulb
+  frequency: 15
+  type: treasure
+- items: vegetation/flower-sunflower-bulb
+  frequency: 12
+  type: treasure
+- items: vegetation/flower-cactus-bulb
+  frequency: 10
+  type: treasure
+- items: vegetation/flower-bird-of-paradise-bulb
+  frequency: 8
+  type: treasure
+- items: vegetation/flower-trumpets-bulb
+  frequency: 5
+  type: treasure
+- items: vegetation/tree-hellish-bulb
+  frequency: 1
+  type: treasure
+- items: vegetation/tree-bonsai-bulb
+  frequency: 2
+  type: treasure
+
+- items: furniture/daguerreotype-small
+  frequency: 15
+  type: treasure
+- items: furniture/painting-landscape
+  frequency: 10
+  type: treasure
+- items: furniture/painting-autumn
+  frequency: 3
+  type: treasure+
+- items:
+    - ['building/gargoyle-falcon-side', 2]
+  frequency: 25
+  type: treasure
+- items: signs/plaque
+  frequency: 20
+  type: treasure
+- items:
+    - ['ground/fire-salt', 5]
+  frequency: 20
+  type: treasure
+- items:
+    - ['ground/earth-compost', 10]
+  frequency: 20
+  type: treasure
+- items:
+    - ['accessories/battery', 4]
+  frequency: 25
+  type: treasure
+- items:
+    - ['ground/ectoplasm', 2]
+    - ['ground/fire-salt', 2]
+  frequency: 20
+  type: treasure
+- items:
+    - ['consumables/teleporter', 2]
+  frequency: 15
+  type: treasure
+- items:
+    - ['mechanical/teleporter-mini', 1]
+    - ['mechanical/beacon', 1]
+  frequency: 12
+  type: treasure
+- items:
+    - ['ground/crystal-blue-1', 2]
+  frequency: 12
+  type: treasure
+- items:
+    - ['building/crystal-blue', 2]
+  frequency: 9
+  type: treasure
+- items:
+    - 'building/crystal-red'
+  frequency: 6
+  type: treasure
+- items:
+    - 'building/crystal-purple'
+  frequency: 6
+  type: treasure
+- items:
+    - ['mechanical/bomb-dig', 2]
+  frequency: 10
+  type: treasure
+- items:
+    - ['consumables/teleporter', 2]
+  frequency: 4
+  type: treasure
+- items: building/statue-gothic-front
+  frequency: 9
+  type: treasure
+- items: building/statue-gothic-side
+  frequency: 7
+  type: treasure
+- items:
+    - ['tools/net', 1]
+    - ['accessories/shillings', 10]
+  frequency: 15
+  type: treasure
+- items: accessories/sprocket
+  frequency: 15
+  type: treasure
+- items: accessories/widget
+  frequency: 15
+  type: treasure
+- items: accessories/flashlight-brass
+  frequency: 15
+  type: treasure
+- items: accessories/compressor-basic
+  frequency: 10
+  type: treasure
+- items: accessories/program
+  frequency: 9
+  type: treasure
+- items: accessories/memory
+  frequency: 8
+  type: treasure
+- items: accessories/schematic
+  frequency: 8
+  type: treasure
+- items: furniture/companion-cube
+  frequency: 5
+  type: treasure
+- items: accessories/key-skeleton
+  frequency: 5
+  type: treasure
+
+# Charms L1
+- items: accessories/glove
+  frequency: 4
+  type: treasure
+- items: accessories/army-knife
+  frequency: 5
+  type: treasure
+- items: accessories/clover
+  frequency: 3
+  type: treasure
+- items: accessories/seashell
+  frequency: 4
+  type: treasure
+- items: accessories/stopwatch
+  frequency: 5
+  type: treasure
+
+
+
+# ===== Treasure (Quality) ===== #
+
+- items:
+    - ['vegetation/flower-amaryllis-bulb', 3]
+    - ['vegetation/flower-tuberose-bulb', 2]
+  frequency: 25
+  type: treasure+
+- items:
+    - ['vegetation/flower-carnations-bulb', 3]
+    - ['vegetation/flower-asphodelus-bulb', 2]
+  frequency: 20
+  type: treasure+
+- items:
+    - ['vegetation/pumpkin-seeds', 3]
+  frequency: 15
+  type: treasure+
+- items:
+    - ['vegetation/flower-lobelia-bulb', 2]
+  frequency: 10
+  type: treasure+
+- items:
+    - ['vegetation/flower-birds-foot-trefoil-bulb', 1]
+    - ['vegetation/flower-lobelia-bulb', 2]
+  frequency: 8
+  type: treasure+
+- items:
+    - ['vegetation/flower-delphinium-bulb', 1]
+  frequency: 5
+  type: treasure+
+
+- items:
+    - ['vegetation/flower-echinacea-bulb', 2]
+  frequency: 15
+  type: treasure+
+- items:
+    - ['vegetation/flower-sunflower-bulb', 2]
+  frequency: 12
+  type: treasure+
+- items: vegetation/flower-cactus-bulb
+  frequency: 10
+  type: treasure+
+- items: vegetation/flower-bird-of-paradise-bulb
+  frequency: 8
+  type: treasure+
+- items: vegetation/flower-trumpets-bulb
+  frequency: 7
+  type: treasure+
+- items: vegetation/tree-hellish-bulb
+  frequency: 2
+  type: treasure+
+- items: vegetation/tree-bonsai-bulb
+  frequency: 4
+  type: treasure+
+
+- items: furniture/daguerreotype-small
+  frequency: 30
+  type: treasure+
+- items: furniture/painting-landscape
+  frequency: 20
+  type: treasure+
+- items: furniture/map
+  frequency: 18
+  type: treasure+
+- items: mechanical/typewriter
+  frequency: 17
+  type: treasure+
+- items: accessories/sprocket
+  frequency: 15
+  type: treasure+
+- items: accessories/widget
+  frequency: 15
+  type: treasure+
+- items: mechanical/inhibitor
+  frequency: 15
+  type: treasure+
+- items: furniture/easel
+  frequency: 14
+  type: treasure+
+- items: furniture/ship-in-bottle
+  frequency: 12
+  type: treasure+
+- items: mechanical/ship-wheel
+  frequency: 12
+  type: treasure+
+- items: furniture/head-fish
+  frequency: 10
+  type: treasure+
+- items: furniture/daguerreotype-large
+  frequency: 10
+  type: treasure+
+- items: furniture/globe
+  frequency: 9
+  type: treasure+
+- items: furniture/easel-tall
+  frequency: 8
+  type: treasure+
+- items: furniture/marionette
+  frequency: 7
+  type: treasure+
+- items: mechanical/telescope
+  frequency: 6
+  type: treasure+
+- items: furniture/moon
+  frequency: 5
+  type: treasure+
+  biome: space
+- items: furniture/mars
+  frequency: 5
+  type: treasure+
+  biome: desert
+- items: furniture/airship-in-bottle
+  frequency: 3
+  type: treasure+
+- items: solar-system-diorama
+  frequency: 1
+  type: treasure+
+
+- items: signs/plaque-landmark
+  frequency: 5
+  type: treasure+
+
+- items: furniture/stuffed-bear
+  frequency: 18
+  type: treasure+
+- items: furniture/stuffed-crow
+  frequency: 14
+  type: treasure+
+- items: furniture/stuffed-android
+  frequency: 10
+  type: treasure+
+- items: furniture/stuffed-terrapus
+  frequency: 8
+  type: treasure+
+- items: furniture/stuffed-snowman
+  frequency: 7
+  type: treasure+
+- items: furniture/stuffed-panda
+  frequency: 6
+  type: treasure+
+- items: furniture/stuffed-squid
+  frequency: 5
+  type: treasure+
+- items: furniture/stuffed-cthulhu
+  frequency: 4
+  type: treasure+
+- items: furniture/stuffed-brain
+  frequency: 3
+  type: treasure+
+
+- items: furniture/pinned-cockroach
+  frequency: 18
+  type: treasure+
+- items: furniture/pinned-scorpion
+  frequency: 14
+  type: treasure+
+- items: furniture/pinned-beetle
+  frequency: 10
+  type: treasure+
+- items: furniture/pinned-bee
+  frequency: 8
+  type: treasure+
+- items: furniture/pinned-dragonfly
+  frequency: 6
+  type: treasure+
+- items: furniture/pinned-millipede
+  frequency: 3
+  type: treasure+
+- items: furniture/pinned-tarantula
+  frequency: 2
+  type: treasure+
+- items: furniture/pinned-preying-mantis
+  frequency: 1
+  type: treasure+
+
+- items: holiday/cornucopia
+  frequency: 6
+  type: treasure+
+- items: holiday/gingerbread-house
+  frequency: 2
+  type: treasure+
+- items: holiday/holly-garland
+  frequency: 10
+  type: treasure+
+- items: holiday/mistletoe
+  frequency: 6
+  type: treasure+
+- items:
+    - ['holiday/gift-small', 2]
+  frequency: 12
+  type: treasure+
+- items:
+    - 'holiday/gift-tall'
+  frequency: 6
+  type: treasure+
+- items:
+    - ['holiday/christmas-lights-white', 6]
+  frequency: 8
+  type: treasure+
+- items: holiday/christmas-lights-reindeer
+  frequency: 10
+  type: treasure+
+- items: holiday/christmas-lights-sleigh
+  frequency: 5
+  type: treasure+
+- items: holiday/tree-charlie-brown
+  frequency: 2
+  type: treasure+
+- items: holiday/sleigh
+  frequency: 1
+  type: treasure+
+
+- items: building/statue-figurine-1
+  frequency: 12
+  type: treasure+
+- items: building/statue-figurine-2
+  frequency: 10
+  type: treasure+
+- items: building/statue-figurine-3
+  frequency: 8
+  type: treasure+
+- items: building/statue-figurine-large-1
+  frequency: 5
+  type: treasure+
+- items: building/statue-figurine-large-2
+  frequency: 5
+  type: treasure+
+- items: building/statue-figurine-large-3
+  frequency: 5
+  type: treasure+
+- items: building/statue-figurine-large-4
+  frequency: 3
+  type: treasure+
+
+- items:
+    - ['mechanical/friend-parts-boxing-gloves', 1]
+    - ['mechanical/friend-parts-gear', 1]
+  frequency: 3
+  type: treasure+
+- items:
+    - ['mechanical/friend-parts-scissors', 1]
+    - ['mechanical/friend-parts-joint', 2]
+  frequency: 3
+  type: treasure+
+- items:
+    - ['mechanical/friend-parts-gear', 4]
+  frequency: 5
+  type: treasure+
+- items:
+    - ['mechanical/friend-parts-joint', 1]
+    - ['mechanical/friend-parts-foot', 2]
+  frequency: 3
+  type: treasure+
+- items:
+    - ['mechanical/friend-parts-gear', 2]
+    - ['mechanical/friend-parts-key', 1]
+  frequency: 3
+  type: treasure+
+- items: mechanical/friend-parts-head
+  frequency: 3
+  type: treasure+
+
+- items:
+    - ['mechanical/bomb-dig', 3]
+  frequency: 20
+  type: treasure+
+
+- items: mechanical/science-scrap
+  frequency: 18
+  type: treasure+
+- items: mechanical/chemistry-set
+  frequency: 12
+  type: treasure+
+- items:
+    - ['mechanical/science-scrap', 1]
+    - ['mechanical/chemistry-set', 1]
+  frequency: 7
+  type: treasure+
+- items: mechanical/science-bulb
+  frequency: 7
+  type: treasure+
+- items: mechanical/science-gadget
+  frequency: 3
+  type: treasure+
+
+- items:
+    - ['mechanical/bomb-spawner', 2]
+  frequency: 15
+  type: treasure+
+- items:
+    - 'mechanical/bomb-spawner-large'
+  frequency: 8
+  type: treasure+
+- items:
+    - ['mechanical/teleporter-mini', 1]
+    - ['mechanical/beacon', 1]
+  frequency: 10
+  type: treasure+
+- items: mechanical/teleporter-mini-diamond
+  frequency: 4
+  type: treasure+
+- items: accessories/schematic
+  frequency: 13
+  type: treasure+
+- items: accessories/program
+  frequency: 14
+  type: treasure+
+- items: accessories/memory
+  frequency: 13
+  type: treasure+
+- items:
+    - ['containers/fertilizer', 2]
+  frequency: 10
+  type: treasure+
+- items: containers/pandora
+  frequency: 6
+  type: treasure+
+- items:
+    - ['consumables/teleporter', 3]
+  frequency: 6
+  type: treasure+
+
+- items: lighting/fancy-lamp-1
+  frequency: 15
+  type: treasure+
+- items: lighting/fancy-lamp-2
+  frequency: 15
+  type: treasure+
+- items: lighting/fancy-lamp-7
+  frequency: 10
+  type: treasure+
+- items: lighting/fancy-lamp-6
+  frequency: 8
+  type: treasure+
+- items: lighting/fancy-lamp-4
+  frequency: 5
+  type: treasure+
+- items: lighting/fancy-lamp-3
+  frequency: 3
+  type: treasure+
+- items: lighting/fancy-lamp-5
+  frequency: 1
+  type: treasure+
+
+- items: mechanical/compass
+  frequency: 3
+  type: treasure+
+- items: mechanical/compass-burned
+  frequency: 2
+  type: treasure+
+- items: mechanical/compass-icy
+  frequency: 2
+  type: treasure+
+- items: mechanical/compass-sandy
+  frequency: 2
+  type: treasure+
+- items: mechanical/compass-dark
+  frequency: 2
+  type: treasure+
+
+- items:
+    - ['ground/fire-salt', 6]
+  frequency: 15
+  type: treasure+
+- items:
+    - ['accessories/battery', 6]
+  frequency: 20
+  type: treasure+
+- items:
+    - ['building/crystal-red', 2]
+  frequency: 6
+  type: treasure+
+- items:
+    - ['building/crystal-purple', 2]
+  frequency: 6
+  type: treasure+
+- items: ground/crystal-red-1
+  frequency: 5
+  type: treasure+
+- items: ground/crystal-purple-1
+  frequency: 4
+  type: treasure+
+
+# Charms L1
+- items: accessories/glove
+  frequency: 4
+  type: treasure+
+- items: accessories/army-knife
+  frequency: 5
+  type: treasure+
+- items: accessories/clover
+  frequency: 3
+  type: treasure+
+- items: accessories/seashell
+  frequency: 4
+  type: treasure+
+- items: accessories/stopwatch
+  frequency: 5
+  type: treasure+
+- items: accessories/agility-brass
+  frequency: 5
+  type: treasure+
+- items: accessories/scope-brass
+  frequency: 5
+  type: treasure+
+- items: accessories/rake
+  frequency: 5
+  type: treasure+
+
+# Charms L2
+- items: accessories/flashlight-diamond
+  frequency: 4
+  type: treasure+
+- items: accessories/pocketwatch
+  frequency: 2
+  type: treasure+
+- items: accessories/horseshoe
+  frequency: 2
+  type: treasure+
+- items: accessories/sand-dollar
+  frequency: 2
+  type: treasure+
+- items: accessories/army-knife-diamond
+  frequency: 2
+  type: treasure+
+- items: accessories/glove-diamond
+  frequency: 2
+  type: treasure+
+- items: accessories/agility-diamond
+  frequency: 2
+  type: treasure+
+- items: accessories/scope-diamond
+  frequency: 2
+  type: treasure+
+- items: accessories/rake-diamond
+  frequency: 2
+  type: treasure+
+
+
+
+# Rare powerups
+- items: accessories/key-skeleton
+  frequency: 10
+  type: treasure+
+- items: holiday/coffin
+  frequency: 7
+  type: treasure+
+- items: vegetation/pumpkin-giant
+  frequency: 7
+  type: treasure+
+- items: vegetation/pine-tree-festive-giant
+  frequency: 6
+  type: treasure+
+- items: ground/terrapus-pet-egg
+  frequency: 6
+  type: treasure+
+- items: furniture/companion-cube
+  frequency: 5
+  type: treasure+
+- items: containers/cat
+  frequency: 4
+  type: treasure+
+- items: containers/dog
+  frequency: 4
+  type: treasure+
+- items: containers/android
+  frequency: 2
+  type: treasure+
+- items: tools/net-diamond
+  frequency: 2
+  type: treasure+
+- items: tools/hatchet-diamond
+  frequency: 2
+  type: treasure+
+- items: tools/spade-diamond
+  frequency: 2
+  type: treasure+
+- items: mechanical/dish-micro
+  frequency: 2
+  type: treasure+
+- items: consumables/book-skill
+  frequency: 1
+  type: treasure+
+- items: consumables/world-key
+  frequency: 1
+  type: treasure+
+- items: mechanical/dish
+  frequency: 1
+  type: treasure+
+
+
+# Shillings
+- items:
+    - ['accessories/shillings', 10]
+  frequency: 20
+  type: treasure+
+- items:
+    - ['accessories/shillings', 25]
+  frequency: 10
+  type: treasure+
+- items:
+    - ['accessories/shillings', 50]
+  frequency: 5
+  type: treasure+
+- items:
+    - ['accessories/shillings', 250]
+  frequency: 1
+  type: treasure+
+
+
+
+
+# ===== Armaments ===== #
+
+- items:
+    - ['consumables/jerky', 6]
+    - ['consumables/jerky-power', 2]
+  frequency: 70
+  type: armaments
+- items:
+    - ['building/plug', 5]
+  frequency: 50
+  type: resources
+- items:
+    - ['consumables/canister', 4]
+  frequency: 60
+  type: armaments
+- items:
+    - ['consumables/jerky', 4]
+    - ['consumables/canister', 4]
+  frequency: 40
+  type: armaments
+- items:
+    - consumables/cloak
+    - ['consumables/canister', 2]
+  frequency: 30
+  type: armaments
+- items:
+    - ['ammo/gunpowder', 5]
+    - ['ammo/bullets', 5]
+  frequency: 80
+  type: armaments
+- items:
+    - ['mechanical/spikes', 5]
+  frequency: 30
+  type: armaments
+- items:
+    - ['ground/terrapus-egg', 3]
+  frequency: 20
+  type: armaments
+- items:
+    - ['consumables/filet', 3]
+  frequency: 20
+  type: armaments
+- items:
+    - ['consumables/canister', 3]
+    - ['ammo/gunpowder', 10]
+  frequency: 30
+  type: armaments
+- items:
+    - ['consumables/tea', 2]
+  frequency: 20
+  type: armaments
+- items:
+    - ['ammo/gunpowder', 10]
+  frequency: 20
+  type: armaments
+- items:
+    - ['mechanical/bomb-incendiary', 2]
+  frequency: 40
+  type: armaments
+- items:
+    - ['mechanical/bomb-electric', 2]
+  frequency: 32
+  type: armaments
+- items:
+    - ['mechanical/bomb', 3]
+  frequency: 24
+  type: armaments
+- items:
+    - ['mechanical/trap-mine', 3]
+  frequency: 25
+  type: armaments
+- items: mechanical/turret-pistol
+  frequency: 32
+  type: armaments
+
+# ===== Quality Armaments ===== #
+
+- items:
+    - ['consumables/jerky-power', 10]
+  frequency: 40
+  type: armaments+
+- items:
+    - ['consumables/jerky-power', 5]
+    - ['consumables/canister', 5]
+  frequency: 30
+  type: armaments+
+- items:
+    - ['ammo/gunpowder', 25]
+  frequency: 20
+  type: armaments+
+- items:
+    - ['consumables/cloak', 2]
+  frequency: 16
+  type: armaments+
+- items:
+    - ['consumables/filet-fire', 3]
+    - 'consumables/cloak'
+    - 'consumables/teleporter'
+  frequency: 15
+  type: armaments+
+- items:
+    - ['mechanical/bomb', 5]
+    - ['mechanical/bomb-large', 1]
+  frequency: 20
+  type: armaments+
+- items:
+    - ['mechanical/bomb-large', 2]
+    - ['mechanical/trap-mine', 3]
+  frequency: 12
+  type: armaments+
+- items:
+    - ['mechanical/bomb-energy', 2]
+    - ['mechanical/bomb-incendiary', 3]
+  frequency: 10
+  type: armaments+
+- items:
+    - ['ground/terrapus-egg', 5]
+    - ['ground/terrapus-egg-large', 1]
+  frequency: 15
+  type: armaments+
+- items: mechanical/turret-fire
+  frequency: 20
+  type: armaments+
+- items: mechanical/turret-acid
+  frequency: 12
+  type: armaments+
+- items: mechanical/turret-flame
+  frequency: 10
+  type: armaments+
+- items: mechanical/turret-dessicator
+  frequency: 8
+  type: armaments+
+- items: mechanical/bomb-water
+  frequency: 6
+  type: armaments+
+- items: mechanical/bomb-acid
+  frequency: 5
+  type: armaments+
+- items: mechanical/bomb-lava
+  frequency: 5
+  type: armaments+
+- items: shields/acid
+  frequency: 4
+  type: armaments+
+- items: tools/gun-energy-pistol
+  frequency: 2
+  type: armaments+
+- items: mechanical/spawner-small
+  frequency: 1
+  type: armaments+
+
+- crowns: 5
+  frequency: 12
+  type: treasure+
+- crowns: 10
+  frequency: 5
+  type: treasure+
+- crowns: 25
+  frequency: 1
+  type: treasure+
+- crowns: 5
+  frequency: 12
+  type: treasure+
+  bonus: crowns2x
+- crowns: 10
+  frequency: 5
+  type: treasure+
+  bonus: crowns2x
+- crowns: 25
+  frequency: 1
+  type: treasure+
+  bonus: crowns2x
+- crowns: 5
+  frequency: 24
+  type: treasure+
+  bonus: crowns3x
+- crowns: 10
+  frequency: 10
+  type: treasure+
+  bonus: crowns3x
+- crowns: 25
+  frequency: 2
+  type: treasure+
+  bonus: crowns3x

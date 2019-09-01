@@ -1,0 +1,557 @@
+plain:
+  creatures/rat:
+    frequency: 10
+    locale: cave
+
+  creatures/skunk:
+    frequency: 2
+    locale: cave
+    max_depth: 0.3
+
+  creatures/crow:
+    frequency: 12
+    locale: sky
+    group: [1, 4]
+
+  creatures/vulture:
+    frequency: 1
+    locale: sky
+
+  creatures/crow-auto:
+    frequency: 3
+    locale: sky
+    group: [1, 2]
+
+  creatures/bluejay:
+    frequency: 3
+    locale: sky
+    purified: true
+  creatures/cardinal:
+    frequency: 1
+    locale: sky
+    purified: true
+  creatures/seagull:
+    frequency: 2
+    locale: sky
+    purified: true
+
+  creatures/butterfly-monarch:
+    frequency: 2
+    locale: sky
+    purified: true
+  creatures/butterfly-papilio-ulysses:
+    frequency: 0.5
+    locale: sky
+    purified: true
+  creatures/butterfly-swallowtail:
+    frequency: 1
+    locale: sky
+    purified: true
+  creatures/butterfly-moth:
+    frequency: 5
+    locale: sky
+    purified: true
+    group: [1, 2]
+  creatures/butterfly-owl:
+    frequency: 0.1
+    locale: sky
+    purified: true
+  creatures/butterfly-paper-kite:
+    frequency: 0.01
+    locale: sky
+    purified: true
+
+  creatures/bat:
+    frequency: 9
+    locale: cave
+    orifice: maw
+    group: [1, 4]
+
+  creatures/bat-auto:
+    frequency: 3
+    locale: cave
+    orifice: maw
+    group: [1, 2]
+
+  creatures/scorpion:
+    frequency: 1
+    locale: cave
+
+  creatures/roach:
+    frequency: 3
+    locale: cave
+    group: [2, 3]
+
+  creatures/roach-large:
+    frequency: 2
+    orifice: maw
+    locale: cave
+
+  terrapus/child:
+    max_depth: 0.4
+    frequency: 20
+    orifice: maw
+    locale: cave
+
+  terrapus/adult:
+    max_depth: 0.7
+    frequency: 20
+    orifice: maw
+    locale: cave
+
+  terrapus/acid:
+    min_depth: 0.4
+    frequency: 13
+    orifice: maw
+    locale: cave
+
+  terrapus/fire:
+    min_depth: 0.6
+    frequency: 8
+    orifice: maw
+    locale: cave
+
+  automata/tiny:
+    min_depth: 0
+    frequency: 12
+    orifice: pipe
+    locale: cave
+
+  automata/small:
+    min_depth: 0.35
+    frequency: 8
+    orifice: pipe
+    locale: cave
+  automata/medium:
+    min_depth: 0.65
+    frequency: 6
+    orifice: pipe
+    locale: cave
+
+  brains/small:
+    min_depth: 0.8
+    frequency: 1
+    orifice: pipe
+    locale: cave
+
+  brains/medium:
+    min_depth: 0.9
+    frequency: 1
+    locale: cave
+
+deep:
+  creatures/bat:
+    frequency: 9
+    locale: cave
+    orifice: maw
+    group: [1, 4]
+
+  creatures/bat-auto:
+    frequency: 3
+    locale: cave
+    orifice: maw
+    group: [1, 2]
+
+  creatures/roach-large:
+    frequency: 2
+    orifice: maw
+    locale: cave
+    group: [2, 3]
+
+  terrapus/adult:
+    max_depth: 0.4
+    frequency: 14
+    orifice: maw
+    locale: cave
+
+  terrapus/acid:
+    min_depth: 0
+    frequency: 12
+    orifice: maw
+    locale: cave
+
+  terrapus/fire:
+    min_depth: 0.2
+    frequency: 8
+    orifice: maw
+    locale: cave
+
+  terrapus/queen:
+    frequency: 3
+    min_depth: 0.333
+    locale: cave
+
+  automata/tiny:
+    min_depth: 0
+    frequency: 8
+    orifice: pipe
+    locale: cave
+  automata/small:
+    frequency: 10
+    orifice: pipe
+    locale: cave
+  automata/medium:
+    frequency: 7
+    orifice: pipe
+    locale: cave
+  automata/large:
+    min_depth: 0.5
+    frequency: 5
+    orifice: pipe
+    locale: cave
+
+  brains/small:
+    min_depth: 0.4
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  brains/medium:
+    min_depth: 0.6
+    frequency: 1
+    locale: cave
+
+arctic:
+  terrapus/adult:
+    max_depth: 0.7
+    frequency: 8
+    orifice: maw
+    locale: cave
+
+  terrapus/frost:
+    min_depth: 0.4
+    frequency: 9
+    orifice: maw
+    locale: cave
+
+  creatures/bunny-ice:
+    max_depth: 0.5
+    frequency: 6
+    orifice: maw
+    locale: cave
+
+  creatures/roach:
+    frequency: 3
+    locale: cave
+    group: [2, 3]
+
+  creatures/roach-large:
+    frequency: 2
+    orifice: maw
+    locale: cave
+
+  creatures/snowworm:
+    frequency: 2
+    min_depth: 0.5
+    locale: cave
+    orifice: maw
+
+  automata/tiny:
+    min_depth: 0
+    frequency: 5
+    orifice: pipe
+    locale: cave
+
+  automata/small:
+    min_depth: 0.45
+    frequency: 4
+    orifice: pipe
+    locale: cave
+
+  automata/medium:
+    min_depth: 0.7
+    frequency: 3
+    orifice: pipe
+    locale: cave
+
+  brains/small:
+    min_depth: 0.6
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  brains/medium:
+    min_depth: 0.7
+    frequency: 1
+    locale: cave
+
+
+hell:
+  creatures/butterfly-rumanzovia:
+    frequency: 0.05
+    locale: sky
+
+  terrapus/adult:
+    max_depth: 0.7
+    frequency: 4
+    orifice: maw
+    locale: cave
+
+  terrapus/skeleton:
+    frequency: 8
+    orifice: maw
+    locale: cave
+
+  terrapus/fire:
+    min_depth: 0.35
+    frequency: 5
+    orifice: maw
+    locale: cave
+
+  ghost:
+    frequency: 3
+    locale: cave
+
+  revenant:
+    frequency: 5
+    locale: cave
+
+  dire-revenant:
+    frequency: 2
+    locale: cave
+
+  revenant-lord:
+    frequency: 1
+    locale: cave
+
+  brains/small:
+    min_depth: 0.5
+    frequency: 1
+    orifice: pipe
+    locale: cave
+
+  brains/medium:
+    min_depth: 0.7
+    frequency: 1
+    locale: cave
+
+
+brain:
+  creatures/butterfly-green:
+    frequency: 0.25
+    locale: sky
+
+  terrapus/adult:
+    max_depth: 0.7
+    frequency: 1
+    orifice: maw
+    locale: cave
+
+  terrapus/acid:
+    frequency: 9
+    orifice: maw
+    locale: cave
+
+  automata/tiny:
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  automata/small:
+    frequency: 3
+    orifice: pipe
+    locale: cave
+
+  automata/medium:
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  automata/large:
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  brains/tiny-flyer:
+    frequency: 5
+    locale: sky
+
+  brains/tiny-crawler:
+    frequency: 5
+    orifice: pipe
+    locale: cave
+
+  brains/tiny-flyer:
+    frequency: 5
+    orifice: pipe
+    locale: cave
+
+  brains/small:
+    frequency: 2
+    locale: sky
+
+  brains/small:
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  brains/medium:
+    min_depth: 0.4
+    frequency: 1
+    locale: cave
+
+  brains/large:
+    min_depth: 0.85
+    frequency: 1
+    locale: cave
+
+desert:
+  creatures/rat:
+    frequency: 4
+    locale: cave
+
+  creatures/armadillo:
+    frequency: 2
+    locale: cave
+
+  creatures/crow:
+    frequency: 2
+    locale: sky
+    group: [1, 4]
+
+  creatures/vulture:
+    frequency: 3
+    locale: sky
+
+  creatures/bat:
+    frequency: 6
+    locale: cave
+    orifice: maw
+    group: [1, 4]
+
+  creatures/bat-auto:
+    frequency: 3
+    locale: cave
+    orifice: maw
+    group: [1, 2]
+
+  creatures/sandworm:
+    frequency: 2
+    min_depth: 0.5
+    locale: cave
+    orifice: maw
+
+  creatures/scorpion:
+    frequency: 8
+    locale: cave
+    orifice: maw
+
+  creatures/scorpion-large:
+    frequency: 5
+    locale: cave
+
+  creatures/roach:
+    frequency: 3
+    locale: cave
+    group: [2, 3]
+
+  creatures/roach-large:
+    frequency: 2
+    orifice: maw
+    locale: cave
+
+  terrapus/adult:
+    max_depth: 0.7
+    frequency: 8
+    orifice: maw
+    locale: cave
+
+  terrapus/fire:
+    min_depth: 0.4
+    frequency: 6
+    orifice: maw
+    locale: cave
+
+  automata/tiny:
+    min_depth: 0
+    frequency: 3
+    orifice: pipe
+    locale: cave
+
+  automata/small:
+    min_depth: 0.55
+    frequency: 5
+    orifice: pipe
+    locale: cave
+
+  automata/medium:
+    min_depth: 0.8
+    frequency: 3
+    orifice: pipe
+    locale: cave
+
+  brains/small:
+    min_depth: 0.5
+    frequency: 1
+    orifice: pipe
+    locale: cave
+
+  brains/medium:
+    min_depth: 0.7
+    frequency: 1
+    locale: cave
+
+space:
+  automata/tiny:
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  automata/small:
+    frequency: 3
+    orifice: pipe
+    locale: cave
+
+  automata/medium:
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  automata/large:
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  brains/tiny-flyer:
+    frequency: 5
+    locale: sky
+
+  brains/tiny-crawler:
+    frequency: 5
+    orifice: pipe
+    locale: cave
+
+  brains/tiny-flyer:
+    frequency: 5
+    orifice: pipe
+    locale: cave
+
+  brains/small:
+    frequency: 2
+    locale: sky
+
+  brains/small:
+    frequency: 2
+    orifice: pipe
+    locale: cave
+
+  brains/medium:
+    min_depth: 0.4
+    frequency: 1
+    locale: cave
+
+  brains/large:
+    min_depth: 0.85
+    frequency: 1
+    locale: cave
+
+  creatures/bat-auto:
+    frequency: 3
+    locale: cave
+    orifice: maw
+    group: [1, 3]
+
+  creatures/crow-auto:
+    frequency: 3
+    locale: sky
+    group: [1, 3]

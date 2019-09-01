@@ -1,0 +1,9 @@
+source 'http://rubygems.org'
+
+gem 'faker'
+gem 'eventmachine'
+gem 'mongo'
+gem 'bson_ext'
+gem 'deepworld-shared', :git => 'git@github.com:bytebin/deepworld-shared.git'
+#gem 'deepworld-shared', :path => '../../../deepworld-shared'
+gem 'rest-client'

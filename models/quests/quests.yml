@@ -1,0 +1,52 @@
+quests:
+  - name: Dazed and confused
+    requirements: operational
+
+  - name: Acid bath
+    requirements: operational
+
+  - name: Prospector
+    requirements: operational
+    dialog:
+      - title:
+          - "For just a small fee, I can help you out."
+          - "If you've got the ectoplasm, I've got answers."
+          - "Looking for something? Perhaps I can assist. For a price."
+          - "Can't find what you're looking for? I may be of service."
+        choices:
+          - text: Where can I find some machine parts?
+            requirements:
+              - ['locatable', 'machine part']
+              - ['explored', 0.75]
+            fee: ['ground/ectoplasm', 15]
+            action:
+              - locate: machine part
+              - dialog:
+                  title: I sense a machine part $LOCATION
+          - text: Where can I find an active dungeon?
+            requirements:
+              - ['locatable', 'machine part']
+              - ['explored', 0.25]
+            fee: ['ground/ectoplasm', 10]
+            action:
+              - locate: dungeon
+              - dialog:
+                  title: I sense a dungeon $LOCATION
+          - text: Where can I find some loot?
+            requirements:
+              - ['locatable', 'loot']
+              - ['explored', 0.25]
+            fee: ['ground/ectoplasm', 5]
+            action:
+              - locate: loot
+              - dialog:
+                  title: I sense a dungeon $LOCATION
+
+
+guide:
+  dialog:
+    - title: Welcome to Deepworld! Have any questions for an old robot like me?
+    - text: What should I do?
+      choice: what-to-do
+    - text: How do I go to other worlds?
+    - text: How do I add friends?

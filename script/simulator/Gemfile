@@ -1,0 +1,12 @@
+source 'http://rubygems.org'
+
+gem 'bootstripe'
+gem 'faker'
+gem 'em-http-request'
+gem 'byebug'
+gem 'msgpack'
+gem 'hashie'
+gem 'eventmachine'
+gem 'mongo'
+gem 'bson_ext'
+gem 'deepworld-shared', :git => 'git@github.com:bytebin/deepworld-shared.git' #:path => '../deepworld-shared'

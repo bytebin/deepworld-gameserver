@@ -1,0 +1,206 @@
+items:
+  vegetation/grass:
+    max_mod: 1
+    chance: 0.1
+  vegetation/arctic-growth:
+    max_mod: 1
+    chance: 0.1
+  vegetation/shrub-a:
+    max_mod: 11
+    chance: 0.1
+  vegetation/shrub-b:
+    max_mod: 11
+    chance: 0.1
+  vegetation/shrub-c:
+    max_mod: 14
+    chance: 0.1
+  vegetation/shrub-d:
+    max_mod: 14
+    chance: 0.1
+  vegetation/shrub-e:
+    max_mod: 14
+    chance: 0.1
+  vegetation/shrub-f:
+    max_mod: 14
+    chance: 0.1
+  vegetation/shrub-g:
+    max_mod: 14
+    chance: 0.1
+
+  vegetation/flower-amaryllis:
+    max_mod: 4
+    chance: 0.1
+  vegetation/flower-asphodelus:
+    max_mod: 4
+    chance: 0.1
+  vegetation/flower-birds-foot-trefoil:
+    max_mod: 4
+    chance: 0.1
+  vegetation/flower-carnations:
+    max_mod: 4
+    chance: 0.1
+  vegetation/flower-coxcomb:
+    max_mod: 4
+    chance: 0.1
+  vegetation/flower-delphinium:
+    max_mod: 4
+    chance: 0.1
+  vegetation/flower-lobelia:
+    max_mod: 4
+    chance: 0.1
+  vegetation/flower-tuberose:
+    max_mod: 4
+    chance: 0.1
+
+  vegetation/flower-bird-of-paradise:
+    max_mod: 8
+    chance: 0.1
+  vegetation/flower-cactus:
+    max_mod: 8
+    chance: 0.1
+  vegetation/flower-echinacea:
+    max_mod: 8
+    chance: 0.1
+  vegetation/flower-sunflower:
+    max_mod: 8
+    chance: 0.1
+  vegetation/flower-trumpets:
+    max_mod: 8
+    chance: 0.1
+  vegetation/tree-bonsai:
+    max_mod: 8
+    chance: 0.1
+  vegetation/tree-hellish:
+    max_mod: 8
+    chance: 0.1
+
+  vegetation/pumpkin:
+    max_mod: 4
+    chance: 0.1
+
+  vegetation/pine-tree:
+    max_mod: 10
+    chance: 0.05
+biomes:
+  arctic:
+    ground/earth-compost:
+      air:
+        vegetation/arctic-growth:
+          frequency: 10
+        vegetation/pine-tree:
+          frequency: 1
+
+  hell:
+    vegetation/tree-hellish-bulb:
+      air:
+        vegetation/tree-hellish:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+  desert:
+    vegetation/flower-cactus-bulb:
+      air:
+        vegetation/flower-cactus:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+  plain:
+    ground/earth-compost:
+      air:
+        vegetation/grass:
+          frequency: 120
+        vegetation/shrub-a:
+          frequency: 33
+        vegetation/shrub-b:
+          frequency: 34
+        vegetation/shrub-c:
+          frequency: 33
+        vegetation/shrub-d:
+          frequency: 25
+        vegetation/shrub-e:
+          frequency: 20
+        vegetation/shrub-f:
+          frequency: 15
+        vegetation/shrub-g:
+          frequency: 15
+
+    vegetation/flower-amaryllis-bulb:
+      air:
+        vegetation/flower-amaryllis:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+    vegetation/flower-asphodelus-bulb:
+      air:
+        vegetation/flower-asphodelus:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+    vegetation/flower-birds-foot-trefoil-bulb:
+      air:
+        vegetation/flower-birds-foot-trefoil:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+    vegetation/flower-carnations-bulb:
+      air:
+        vegetation/flower-carnations:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+    vegetation/flower-coxcomb-bulb:
+      air:
+        vegetation/flower-coxcomb:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+    vegetation/flower-delphinium-bulb:
+      air:
+        vegetation/flower-delphinium:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+    vegetation/flower-lobelia-bulb:
+      air:
+        vegetation/flower-lobelia:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+    vegetation/flower-tuberose-bulb:
+      air:
+        vegetation/flower-tuberose:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+    vegetation/flower-bird-of-paradise-bulb:
+      air:
+        vegetation/flower-bird-of-paradise:
+          frequency: 1
+          replace_seed: ground/earth-compost
+    vegetation/flower-echinacea-bulb:
+      air:
+        vegetation/flower-echinacea:
+          frequency: 1
+          replace_seed: ground/earth-compost
+    vegetation/flower-sunflower-bulb:
+      air:
+        vegetation/flower-sunflower:
+          frequency: 1
+          replace_seed: ground/earth-compost
+    vegetation/flower-trumpets-bulb:
+      air:
+        vegetation/flower-trumpets:
+          frequency: 1
+          replace_seed: ground/earth-compost
+    vegetation/tree-bonsai-bulb:
+      air:
+        vegetation/tree-bonsai:
+          frequency: 1
+          replace_seed: ground/earth-compost
+
+
+    vegetation/pumpkin-seeds:
+      air:
+        vegetation/pumpkin:
+          frequency: 1
+          replace_seed: ground/earth-compost

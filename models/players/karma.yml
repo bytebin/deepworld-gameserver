@@ -1,0 +1,51 @@
+premium:
+  decrement:
+    -250:
+      add: -10
+      notify: Your karma has bottomed out! Sorry, but you must face the consequences...
+      bottom: true
+    -150:
+      notify: You should be more careful with your actions. Your karma is getting low.
+    -75:
+      notify: Tsk tsk... you should stop messing with other players.
+    -25:
+      hint: karma
+  increment:
+    -245:
+      notify: Your karma is getting better. Please be more careful.
+  description:
+    500: Godly
+    250: Angelic
+    100: Great
+    50: Good
+    0: Neutral
+    -75: Fair
+    -249: Fair
+    -299: Bad
+    -349: Abysmal
+
+free:
+  decrement:
+    -150:
+      notify: Your karma has bottomed out! Sorry, but you must face the consequences...
+      add: -10
+      bottom: true
+    -100:
+      notify: You should be more careful with your actions. Your karma is getting low.
+    -75:
+      notify: Tsk tsk... you should stop messing with other players.
+    -25:
+      hint: karma
+  increment:
+    -145:
+      notify: Your karma has gotten better. Please be more careful.
+  description:
+    500: Godly
+    250: Angelic
+    100: Great
+    50: Good
+    0: Neutral
+    -50: Fair
+    -149: Fair
+    -199: Bad
+    -249: Abysmal

@@ -1,0 +1,1 @@
+bundle exec irb -r ./script/console.rb

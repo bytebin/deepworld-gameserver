@@ -1,0 +1,9 @@
+source 'http://rubygems.org'
+
+gem 'mongoid'
+gem 'deepworld-shared', :git => 'git@github.com:bytebin/deepworld-shared.git'
+gem 'rest-client'
+
+group :development do
+  gem 'byebug'
+end

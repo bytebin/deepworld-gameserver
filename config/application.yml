@@ -1,0 +1,45 @@
+defaults: &defaults
+  player:
+    heartbeat_timeout: 30
+    unregistered_timeout: 60
+    entity_radius: 50
+    tutorial: false
+  zone:
+    spin_down: 5
+    save_interval: 5
+  search:
+    max_players: 28
+  versioning:
+    history: 7
+
+  items:
+    bomb-spawner:
+      - ['terrapus/adult', 'terrapus/fire', 'terrapus/frost', 'terrapus/acid', 'terrapus/skeleton']
+      - ['automata/tiny', 'automata/small']
+      - ['brains/tiny-crawler', 'brains/tiny-flyer']
+    bomb-spawner-large:
+      - ['brains/small', 'brains/small', 'brains/small', 'brains/tiny-flyer', 'brains/tiny-crawler', 'brains/medium']
+      - ['automata/small']
+      - ['revenant', 'dire-revenant']
+
+development:
+  <<: *defaults
+  zone:
+    spin_down: 1
+    save_interval: 5
+
+test:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+  zone:
+    spin_down: 1
+    save_interval: 5
+
+production:
+  <<: *defaults
+  player:
+    heartbeat_timeout: 10
+    entity_radius: 50
+    tutorial: false

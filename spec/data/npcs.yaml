@@ -1,0 +1,129 @@
+automata/base: &automata-base
+  group: automata
+  material: metal
+  damage emitter: automata giblets
+  death sound: powerdown_02
+
+automata/tiny:
+  name: automata/tiny
+  <<: *automata-base
+  code: 30
+  inventory:
+    rubble/iron: 5
+    building/brass: 2
+  damage: ['energy', 0.75]
+  defense:
+    fire: 0.9
+    steam: 0.7
+    bludgeoning: 0.2
+    slashing: 0.7
+    piercing: 0.25
+    cold: 0.6
+  weakness:
+    acid: 0.35
+    energy: 0.2
+    sonic: 0.1
+  animations:
+    - name: idle
+  components:
+    body:
+      - automata/golem-tiny-brass
+      - automata/golem-tiny-iron
+    vehicle:
+      - automata/golem-tiny-jetpack
+      - automata/golem-tiny-legs
+      - automata/golem-propeller
+    weapon:
+      - automata/golem-tiny-gun
+
+automata/golem-tiny-brass:
+  name: automata/golem-tiny-brass
+  health: 0.75
+  defense:
+    cold: 0.2
+  weakness:
+    energy: 0
+  sprites:
+    - ['body', 'automata/golem-tiny-brass']
+
+automata/golem-tiny-iron:
+  name: automata/golem-tiny-iron
+  health: 1.0
+  sprites:
+    - ['body', 'automata/golem-tiny-iron']
+
+automata/golem-tiny-jetpack:
+  name: automata/golem-tiny-jetpack
+  behavior:
+    - type: crawler
+  sprites:
+    - ['vehicle', 'automata/golem-tiny-jetpack']
+
+automata/golem-tiny-legs:
+  name: automata/golem-tiny-legs
+  behavior:
+    - type: crawler
+  sprites:
+    - ['vehicle', 'automata/golem-tiny-legs-1']
+  animations:
+    - name: move
+      sprites:
+        vehicle: ['automata/golem-tiny-legs-1', 'automata/golem-tiny-legs-2']
+
+automata/golem-tiny-gun:
+  name: automata/golem-tiny-gun
+  behavior:
+    - type: spawn_attack
+      entity: bullets/steam
+      range: 4
+      speed: 9
+      burst: 5
+      frequency: 0.33
+  sprites:
+    - ['weapon', 'automata/golem-tiny-gun']
+
+automata/golem-propeller:
+  name: automata/golem-propeller
+  damage: ['slashing', 0.333]
+  behavior:
+    - type: crawler
+  sprites:
+    - ['vehicle', 'automata/golem-propeller-1']
+  animations:
+    - name: move
+      sprites:
+        vehicle: ['automata/golem-propeller-1', 'automata/golem-propeller-2']
+
+automata/golem-sawblade:
+  name: automata/golem-sawblade
+  sprites:
+    - ['weapon', 'automata/golem-sawblade']
+  damage: ['slashing', 1.0]
+
+automata/android:
+  name: automata/android
+  class: Android
+  group: android
+  material: metal
+  character: true
+  named: true
+  damage emitter: automata giblets
+  death sound: ['powerdown_02', 'powerdown-bib-ss04325', 'powerdown-bib-ss04815', 'powerdown-blfx-10997-quiet']
+
+  code: 150
+  inventory:
+    building/brass: 1
+  speed: 4
+  behavior:
+    - type: quester
+  collides: false
+  health: 5.0
+  emitters:
+    head: ['small steam', 0]
+
+  animations:
+    - name: idle
+    - name: walk
+    - name: midair
+    - name: flying
+    - name: sitting
