@@ -8,7 +8,7 @@ The server heavily relies on the [Deepworld Master Config](https://github.com/by
 
 We plan to provide a better treasure map over the coming days/weeks, but in the codebase you'll find many things including:
 
-- An applicaton protocol, leveraging MessagePack [server/messages/base_message.rb](./server/messages/base_message.rb) and [server/commands/command_directory.rb](./server/commands/command_directory.rb)
+- An application protocol, leveraging MessagePack [server/messages/base_message.rb](./server/messages/base_message.rb) and [server/commands/command_directory.rb](./server/commands/command_directory.rb)
 - An behavior tree AI system [vendor/rubyhave](./vendor/rubyhave) gem and [models/npcs/behavior](./models/npcs/behavior)
 - A [em-mongo](https://github.com/bcg/em-mongo) based mongodb query library proving a simple mongo API [lib/mongo_model](./lib/mongo_model)
 - A steam power system to connecting steam vents to "power" machines [ext/lib/steam.c](./ext/lib/steam.c)
